@@ -5,6 +5,13 @@ const countDown = (num) => {
     }
 }
 
+// const countDown = (num) => {
+//     let x =num;
+//     while(x >= 0){
+//         console.log(x--)
+//     }
+// }
+
 // const writeCards = (message) => {
 //     return message.map(message => `Thank you, ${message}, for the wonderful surprise gift!`);
 // }
