@@ -1,16 +1,16 @@
 // Code your solutions in this file
-const countDown = (num) => {
-    for(let i = num; i>=0; i--){
-        console.log(i)
-    }
-}
-
 // const countDown = (num) => {
-//     let x =num;
-//     while(x >= 0){
-//         console.log(x--)
+//     for(let i = num; i>=0; i--){
+//         console.log(i)
 //     }
 // }
+
+const countDown = (num) => {
+    let x =num;
+    while(x >= 0){
+        console.log(x--)
+    }
+}
 
 // const writeCards = (message) => {
 //     return message.map(message => `Thank you, ${message}, for the wonderful surprise gift!`);
